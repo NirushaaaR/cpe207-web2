@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        table {
+            width:100%;   
+        }
+
+        .Header tr th{
+            margin: 0;
+            background-color: lightblue;
+            padding: 15px;
+        }
+
+        .information {
+            border: 2px solid black;
+            margin: 10px 0;
+        }
+
+        .td-left {
+            text-align:left; 
+            font-weight: bold;
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        .td-right {
+            text-align: left;
+            padding: 15px;
+        }
+
+        form {
+            border: 2px solid black;
+        }
+
+        .left-td {
+            padding: 0 30px 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <td style="width:15%">
+        </td>
+    <td>
+        <table class="Header">
+            <tr>
+                <th><a href="main.html">Home</a></th>
+                <th><a href="gallery.html">Gallery</a></th>
+                <th><a href="contact.html">Contact</a></th>
+            </tr>
+        </table>
+
+        <table class="information">
+            <tr>
+                <th style="text-align:left; padding: 10px">
+                    <h2>Nirush Srijaimoon</h2>
+                    <h3>Noob WebDev</h3>
+                    <a href="mailto:nirush_srijaimoon@cmu.ac.th">nirush_srijaimoon@cmu.ac.th</a>
+                    <h3>+66-123456789</h3>
+                </th>
+        
+                <th style="text-align:right; padding: 15px">
+                    <img src="img/html_img.jpeg" alt="some random picture" style="width:250px; height:200px;">
+                </th>
+            </tr>
+        </table>
+
+        <form action="#" id="mainform">
+            <table>
+                <tr>
+                    <td class="left-td">
+                        <h3>Subject: </h3>
+                    </td>
+                    <td>
+                        <input type="text" name="subject">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="left-td">
+                        <h3>Message: </h3>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="30" name="Message" form="mainform">
+                        </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="left-td">
+                        <h3>Name: </h3>
+                    </td>
+                    <td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="left-td">
+                        <h3>Gender: </h3>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="female">female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="left-td">
+                        <h3>Phone: </h3>
+                    </td>
+                    <td>
+                        <input type="text" name="Phone">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="left-td">
+                        <h3>Email: </h3>
+                    </td>
+                    <td>
+                        <input type="text" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="left-td">
+                    </td>
+                    <td>
+                        <input type="submit" name="submit_btn" id="submitBtn" style="margin-bottom:15px">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+        
+
+        <div style="text-align:center;">
+                <p>Nirush Srijaimoon -
+                        <a href="mailto:nirush_srijaimoon@cmu.ac.th">nirush_srijaimoon@cmu.ac.th</a>
+                        - (+66)-123456789
+                </p>
+        </div>
+    </td>
+
+    <td style="width:15%">
+    </td>
+    </table>
+
+</body>
+</html>
