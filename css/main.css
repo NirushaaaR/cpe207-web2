@@ -1,39 +1,11 @@
-body {
-    font-size: 16px;
-    background: rgba(31, 12, 12, 0.445);
-}
-
 .card{
     border: 2px solid black;
     margin-bottom: 1rem;
-    background: whitesmoke; 
+    background: #e9ecef; 
 }
 
-.th-left {
-    font-size: 0.8em;
-}
-
-.th-right {
-    text-align:right; 
-    padding: 15px
-}
-
-.Header tr th{
-    margin: 0;
-    background-color: lightblue;
-    padding: 15px;
-}
-
-.information {
-    background: whitesmoke;
-    border: 2px solid #000;
-}
-
-.td-right {
-    text-align: left;
-    padding: 15px;
-}
-
-.container{
-    margin-top: 10px;
+.card-title{
+    border-bottom: 2px solid grey;
+    padding-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
